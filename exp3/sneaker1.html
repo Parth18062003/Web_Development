@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nike InfinityRN 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/b08166fddf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="header">
+        <div class="grid">
+            <div class="row">
+                <nav class="navbar">
+                    <div class="col-sm-4">
+                        <ul class="navbar-nav">
+                            <li class="class-item">
+                                <div class="d-flex justify-content-start">
+                                    <div class="profilebtn">
+                                        <button type="button" class="btn btn-basic" onclick="login()"><i class="fa-regular fa-user fa-xl"></i></button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="navbar-nav">
+                            <li class="class-item">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="heading">
+                                        <div class="h1"><a href="index.html" id="SneakerHead">SneakerHead</a></div>
+                                    </div>
+                                </div>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="navbar-nav">
+                            <li class="class-item">
+                                <form class="d-flex justify-content-center" >
+                                    <div class="searchbar">
+                                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-outline-basic border border-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+                                        <div class="cart">
+                                            <button type="button" class="btn btn-basic  border border-0" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Add to Cart"><i class="fa-solid fa-bag-shopping fa-2xl"></i></button>
+                                          </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#"></a>
+            <div class="col-3">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="link">Home</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a href="sneakers.html" class="nav-link" id="link">sneakers</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a href="" class="nav-link" id="link">apparel</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a href="" class="nav-link" id="link">Accessories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+              <button type="button" class="btn btn-basic border-0" data-bs-toggle="modal" data-bs-target="#img1" id="modalbtn">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d77a604a-2450-48a0-b7f2-5b5ef5aeb231/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="95%">
+              </button>
+              <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex justify-content-center">
+                        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d77a604a-2450-48a0-b7f2-5b5ef5aeb231/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="85%">
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-basic border-0" data-bs-toggle="modal" data-bs-target="#img2" id="modalbtn">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/39684d4f-dfd0-4c25-b510-55643e4ef329/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="95%">
+              </button>
+              <div class="modal fade" id="img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+              
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex justify-content-center">
+                        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/39684d4f-dfd0-4c25-b510-55643e4ef329/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="85%">
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+                <div class="d-flex justify-content-between">
+                    <p class="h5 text-body-secondary mt-3" id="brand">Nike</p>
+                    <button class="btn btn-basic border border-0" id="heart"><i class="fa-solid fa-heart fa-xl"></i></button>
+                </div>
+                <div class="h2" id="sneakername">Nike InfinityRN 4</div>
+                <p class="h4 mt-3 text-body-secondary"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <strong>14,995</strong></p>
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="h5">Shoe Size(UK)</p>
+                    <button type="button" class="btn btn-basic" data-bs-toggle="modal" data-bs-target="#sizechart">
+                        <i class="fa-solid fa-ruler fa-xl"></i>Size Chart
+                    </button>
+                    <div class="modal fade" id="sizechart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Size Chart</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">US</th>
+                                        <th scope="col">UK</th>
+                                        <th scope="col">CM</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>6.5</td>
+                                        <td>6</td>
+                                        <td>24.5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>7.5</td>
+                                        <td>7</td>
+                                        <td>25.5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>8.5</td>
+                                        <td>8</td>
+                                        <td>26.5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>9.5</td>
+                                        <td>9</td>
+                                        <td>27.5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>10.5</td>
+                                        <td>10</td>
+                                        <td>28.5</td>
+                                      </tr>
+                                      <tr>
+                                        <td>11.5</td>
+                                        <td>11</td>
+                                        <td>29.5</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="container text-center mt-2">
+                    <div class="row">
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0 disabled">6</button>
+                        </div>
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0 disabled">7</button>
+                        </div> 
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0">8</button>
+                        </div> 
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0">9</button>
+                        </div> 
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0 disabled">10</button>
+                        </div>
+                        <div class="col" id="sizes">
+                            <button class="btn btn-basic border border-0 disabled">11</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <button class="btn btn-basic btn-lg" id="cartbtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-basic border-0" data-bs-toggle="modal" data-bs-target="#img3" id="modalbtn">
+              <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/add22bc2-0805-45f2-a3f8-4cead06a63c7/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." id="productimg" width="95%">
+            </button>
+            <div class="modal fade" id="img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+            
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/add22bc2-0805-45f2-a3f8-4cead06a63c7/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." id="productimg" width="85%">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+            
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-basic border-0" data-bs-toggle="modal" data-bs-target="#img4" id="modalbtn">
+              <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bce72233-aaff-4e29-8218-b577090b4bc7/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="95%">
+            </button>
+            <div class="modal fade" id="img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+            
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bce72233-aaff-4e29-8218-b577090b4bc7/infinityrn-4-road-running-shoes-9fcndR.png" class="img-fluid" alt="..." width="85%">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+            
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" id="accordianbtn">
+                      About product
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body"><p class="h6 text-body-secondary"><strong>What's new about the Nike InfinityRN 4?</strong><br><br>
+                        This version of the Nike InfinityRN 4 still provides a plush and smooth ride, with the new ReactX foam delivering more support. The revamped Flyknit upper and wider toe box help your foot feel stable and secure.
+                        With supportive cushioning built for a smooth run, the Nike InfinityRN 4 is a brand-new take on a familiar favourite. It's made from our all-new Nike ReactX foam, which gives you 13% more energy return compared with Nike React foam, to help you stay fresh and bouncy. (What's more? Nike ReactX reduces the carbon footprint of the midsole by at least 43% compared with Nike React foam, so it helps support the planet, too). We coupled the ReactX foam with Nike Running's best-fitting Flyknit yet, so you can feel confident in every stride with soft upper support and breathability. It's the kind of shoe that supports every step in style.</p></div>
+                  </div>
+                </div>
+                <div class="accordion-item mt-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" id="accordianbtn">
+                      Product Details
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Manufacturer : </b> Nike</li>
+                        <li class="list-group-item"><b>Country of Origin : </b> Vietnam</li>
+                        <li class="list-group-item"><b>Imported By : </b> Nike India Pvt. Ltd.</li>
+                        <li class="list-group-item"><b>Unit of Measurement : </b> 1 Pair</li>
+                        <li class="list-group-item"><b>Article Code : </b> DR2670-101</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item visually-hidden">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container mt-5" id="cards1">
+        <div class="row mt-5">
+          <div class="h3 mt-5" id="newArrival">People also bought</div>
+            <div class="col">
+                <div class="d-flex">
+                    <div class="card" style="width: 18rem;">
+                      <a href="sneaker14.html" class="cardlink">
+                        <div id="card1" class="carousel slide card-image-top" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                              <img src="https://www.superkicks.in/cdn/shop/files/1_4b3e21d3-6a20-450f-85e8-e5cd5cd5bdd2.jpg?v=1689765611&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/2_f0b4dd77-5c34-494f-a437-3c83fc877c80.jpg?v=1689765611&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/4_3c4ef32f-1ce0-4d52-8bed-13bb19ba9741.jpg?v=1689765611&width=600" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#card1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#card1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      <div class="card-body">
+                        <p class="card-text text-body-secondary">Nike</p>
+                        <h5 class="card-title">AIR MAX 97 'PURE PLATINUM/WOLF GREY-WOLF GREY-SAIL'</h5>
+                        <p class="card-text"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <strong>16,995</strong></p>
+                        <a href="#" class="btn btn-basic mt-2">Add to cart</a>
+                      </div>
+                    </div>
+                      </a>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="d-flex">
+                    <div class="card" style="width: 18rem;">
+                      <a href="sneaker15.html" class="cardlink">
+                        <div id="card2" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="6000">
+                              <img src="https://www.superkicks.in/cdn/shop/files/1_2bade322-6489-43c0-ba60-e52b8fda3331.jpg?v=1687959237&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/2_0910da13-bde7-4641-a9e5-27f70e737f44.jpg?v=1687959237&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/3_0fc7d682-d588-4949-8d03-17d2c2cb4356.jpg?v=1687959237&width=600" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#card2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#card2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      <div class="card-body">
+                          <p class="card-text text-body-secondary">Adidas Originals</p>
+                        <h5 class="card-title">OZWEEGO 'GREY ONE/WONDER BLUE/WHITE'</h5>
+                        <p class="card-text"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <strong>13,999</strong></p>
+                        <a href="#" class="btn btn-basic mt-2">Add to cart</a>
+                      </div>
+                    </div>
+                      </a>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="d-flex">
+                    <div class="card" style="width: 18rem;">
+                      <a href="sneaker16.html" class="cardlink">
+                        <div id="card3" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="7000">
+                              <img src="https://www.superkicks.in/cdn/shop/files/GW4652-3.jpg?v=1690187263&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/GW4652-2.jpg?v=1690187263&width=600" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/files/GW4652.jpg?v=1690187263&width=600" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#card3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#card3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      <div class="card-body">
+                          <p class="card-text text-body-secondary">Adidas Originals</p>
+                        <h5 class="card-title">NMD_S1 'WHITE/GREY ONE'</h5>
+                        <p class="card-text"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <strong>19,999</strong></p>
+                        <a href="#" class="btn btn-basic mt-2">Add to cart</a>
+                      </div>
+                    </div>
+                      </a>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="d-flex">
+                    <div class="card" style="width: 18rem;">
+                      <a href="sneaker17.html" class="cardlink">
+                        <div id="card4" class="carousel slide card-image-top" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="8000">
+                              <img src="https://www.superkicks.in/cdn/shop/products/1-173_7697044f-1b12-40cf-bf86-b865910a6f05.jpg?v=1675973684&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/products/2-167.jpg?v=1675973684&width=600" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://www.superkicks.in/cdn/shop/products/3-158.jpg?v=1675973684&width=600" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#card4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#card4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      <div class="card-body">
+                          <p class="card-text text-body-secondary">Nike</p>
+                        <h5 class="card-title">WMN'S AIR JORDAN 1 RETRO HIGH 'MEDIUM GREY/BLACK-WHITE'</h5>
+                        <p class="card-text"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i> <strong>16,995</strong></p>
+                        <a href="#" class="btn btn-basic mt-2">Add to cart</a>
+                      </div>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+
+  
+    <div class="container-fluid mt-5" id="footer">
+        <footer class="py-3">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Info</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Stores</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Policies</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Returns and Exchange</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Orders and Shippings</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="nav flex-row justify-content-center">Our Socials</h5>
+              <ul class="nav flex-row justify-content-between mt-4">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+              </ul>
+            </div>
+            
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-basic" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+              
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+            <p><sup><i class="fa-regular fa-copyright fa-sm"></i></sup>2023 SneakerHead, Inc. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        function login() {
+            location.href = "login.html";
+        }
+        function signup() {
+            location.href = "signup.html";
+        }
+    </script>
+  </body>
+</html>

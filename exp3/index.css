@@ -1,0 +1,214 @@
+* {
+    max-width: 100%;
+}
+
+.header {
+    max-height: 40vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.profilebtn {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.profilebtn button:hover {
+    border: 1px groove rgb(49, 49, 49);
+}
+
+.heading {
+    display: flex;
+    color: rgb(33, 32, 32);
+    border: 4px double rgb(33, 32, 32);
+    padding: 1em;
+}
+
+#SneakerHead {
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-family: 'Caprasimo', cursive;
+    font-size: 1em;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.searchbar input[type=text] {
+    border: 2px groove rgb(33, 32, 32);
+    border-radius: 5px;
+    padding: 1vh;
+    text-transform: capitalize;
+}
+
+#link {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#link:hover {
+    background-color: rgb(242, 242, 242);
+    font-weight: 600;
+}
+
+.cart {
+    right: 4em;
+}
+
+.cart button:hover, button:active{
+    border: none;
+}
+
+.landingimg {
+    margin: 3em;
+}
+
+#cards1 h5,#cards2 h5, #cards3 h5{
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(33, 32, 32);
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+
+#newArrival, #mensFootwear, #womensFootwear {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#cards1 a:hover, #cards2 a:hover, #cards3 a:hover {
+    border: 1px groove rgb(33, 32, 32);
+}
+
+.cardlink:link, .cardlink:visited {
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+}
+
+#footer {
+    background-color: rgb(212, 212, 212);
+}
+
+#footer a:link, a:visited{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 1vh;
+}
+
+.resetlink {
+    display: flex;
+    justify-content: start;
+}
+
+.resetlink a:link,a:visited {
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-size: 12px;
+    margin: 1em;
+}
+
+.resetlink a:hover {
+    text-decoration: underline;
+}
+
+.loginbtn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+.loginbtn button, .signupbtn button {
+    border: 1px groove rgb(33, 32, 32);
+}
+
+.loginbtn button:hover, .signupbtn button:hover {
+    border: 1px groove rgb(33, 32, 32);
+    background-color: rgb(203, 203, 203);
+}
+
+#loginform {
+    border: 1px groove rgb(33, 32, 32);
+    height: 32em;
+    box-shadow: 5px 10px 8px 5px  #888888;
+    background-color: rgb(240, 240, 240);
+}
+
+#heart:hover {
+    border: none;
+    color: rgb(250, 41, 76);
+}
+
+#sneakername {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#sizes {
+    border: 1px solid black;
+}
+
+#cartbtn {
+    width: 90%;
+    background-color: rgb(33, 32, 32);
+    color: rgb(251, 249, 246);
+}
+
+#accordianbtn {
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+#modalbtn {
+    padding: 0;
+}
+
+#size button {
+    width: 3em;
+    border: 1px solid rgb(34, 33, 33);
+}
+
+#filterbtn {
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    color: rgb(224, 224, 224);
+}
+
+#filterbtn:hover {
+    color: rgb(255, 255, 255);
+}
+
+#divheading {
+    margin-top: 1vh;
+    margin-left: 1em;
+    font-family: sans-serif;
+}
+
+.filter {
+    border: 1px groove rgb(33, 33, 32);
+    margin-right: 2em;
+}
